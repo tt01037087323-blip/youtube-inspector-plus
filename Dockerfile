@@ -25,4 +25,4 @@ ENV STREAMLIT_SERVER_HEADLESS=true \
 EXPOSE 8501
 
 # 앱 진입점 (app/app.py 경로 맞춰서 수정)
-CMD ["streamlit", "run", "app/app.py", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0"]
